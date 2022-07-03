@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Orion's Portfolio",
   description:
-    "Ph.D. Candidate at UC Berkeley in the Persson Group. NSF Fellow.",
+    "Doctoral Candidate at UC Berkeley in the Persson Group. NSF Fellow.",
   og: {
     title: "Orion Cohen's Portfolio",
     type: "website",
@@ -23,11 +23,11 @@ const greeting = {
   logo_name: "OrionCohen",
   nickname: "@orionarcher",
   subTitle:
-    "Doctoral Candidate at UC Berkeley in the Persson Group. NSF Fellow. Active in computational materials discovery. Invested in open source and open science.",
+    "Active in computational materials discovery. Invested in open source and open science.",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  githubProfile: "https://github.com/orionarcher",
 };
 
 const socialMediaLinks = [
@@ -70,6 +70,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fab fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
+  {
+    name: "Research",
+    link: "https://perssongroup.lbl.gov/people.html",
+    fontAwesomeIcon: "fas fa-graduation-cap", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    backgroundColor: "#003262", // Reference https://simpleicons.org/?q=linkedin
+  },
   // {
   //   name: "Facebook",
   //   link: "https://www.facebook.com/laymanbrother.19/",
@@ -90,50 +96,59 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Extracting insight from complex and heterogenous scientific datasets",
+        "⚡ Opinionated expertise in data and scientific visualization",
+        "⚡ Practiced talent in communicating technical topics to non-experts",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "Plotly",
+          fontAwesomeClassname: "simple-icons:plotly", // from iconify
           style: {
+            color: "#3f5075",
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "Numpy",
+          fontAwesomeClassname: "logos:numpy", // from iconify
           style: {
-            backgroundColor: "white",
-            color: "#D00000",
+            color: "#3f5075",
+            backgroundColor: "transparent",
           },
         },
         {
           skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          fontAwesomeClassname: "logos:pytorch-icon",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "Pandas",
+          fontAwesomeClassname: "simple-icons:pandas",
           style: {
             backgroundColor: "transparent",
-            color: "#3776AB",
+            color: "#0080d0",
+          },
+        },
+        {
+          skillName: "R",
+          fontAwesomeClassname: "cib:r",
+          style: {
+            backgroundColor: "transparent",
+            color: "#2167ba",
           },
         },
       ],
     },
     {
-      title: "Full Stack Development",
+      title: "Front End Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Designing scientific visualizations for the Materials Project with ThreeJS & React",
+        "⚡ Deploying stylish websites for personal and scientific projects",
+        "⚡ Exploring how web technology can better communicate scientific discovery",
       ],
       softwareSkills: [
         {
@@ -148,13 +163,6 @@ const skills = {
           fontAwesomeClassname: "fa-css3",
           style: {
             color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
           },
         },
         {
@@ -173,6 +181,13 @@ const skills = {
           },
         },
         {
+          skillName: "ThreeJS",
+          fontAwesomeClassname: "logos:threejs",
+          style: {
+            color: "#ff9900",
+          },
+        },
+        {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:node-dot-js",
           style: {
@@ -187,30 +202,16 @@ const skills = {
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
           skillName: "Gatsby",
           fontAwesomeClassname: "simple-icons:gatsby",
           style: {
             color: "#663399",
           },
         },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Scientific Software Engineering",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
@@ -220,84 +221,45 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
           style: {
-            color: "#4285F4",
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "C++",
+          fontAwesomeClassname: "bxl:c-plus-plus",
           style: {
-            color: "#FF9900",
+            backgroundColor: "transparent",
+            color: "#3f5075",
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "C++",
+          fontAwesomeClassname: "clarity:cluster-solid",
           style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
+            backgroundColor: "transparent",
+            color: "#004480",
           },
         },
       ],
     },
     {
-      title: "UI/UX Design",
+      title: "Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Designing interactive and unique scientific presentations",
+        "⚡ Creating attractive, informative plots and data visualizations",
+        "⚡ Experimenting with molecular visualization software and techniques",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "Slides",
+          fontAwesomeClassname: "logos:slides",
           style: {
             color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
           },
         },
         {
@@ -308,10 +270,24 @@ const skills = {
           },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "Overleaf",
+          fontAwesomeClassname: "academicons:overleaf",
           style: {
-            color: "#000000",
+            color: "#45a339",
+          },
+        },
+        {
+          skillName: "Blender",
+          fontAwesomeClassname: "logos:blender",
+          style: {
+            color: "#45a339",
+          },
+        },
+        {
+          skillName: "PowerPoint",
+          fontAwesomeClassname: "vscode-icons:file-type-powerpoint",
+          style: {
+            color: "#F24E1E",
           },
         },
       ],
