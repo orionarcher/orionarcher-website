@@ -93,7 +93,93 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Computational Molecular Science",
+      fileName: "FeelingScience",
+      skills: [
+        "⚡ Extracting insight from complex and heterogenous scientific datasets",
+        "⚡ Opinionated expertise in data and scientific visualization",
+        "⚡ Practiced talent in communicating technical topics to non-experts",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Plotly",
+          fontAwesomeClassname: "simple-icons:plotly", // from iconify
+          style: {
+            color: "#3f5075",
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Numpy",
+          fontAwesomeClassname: "logos:numpy", // from iconify
+          style: {
+            color: "#3f5075",
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos:pytorch-icon",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Pandas",
+          fontAwesomeClassname: "simple-icons:pandas",
+          style: {
+            backgroundColor: "transparent",
+            color: "#0080d0",
+          },
+        },
+        {
+          skillName: "R",
+          fontAwesomeClassname: "cib:r",
+          style: {
+            backgroundColor: "transparent",
+            color: "#2167ba",
+          },
+        },
+      ],
+    },
+    {
+      title: "Scientific Software Engineering",
+      fileName: "ClusterImg",
+      skills: [
+        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "bxl:c-plus-plus",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3f5075",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "clarity:cluster-solid",
+          style: {
+            backgroundColor: "transparent",
+            color: "#004480",
+          },
+        },
+      ],
+    },
+    {
+      title: "Data Science & Design",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Extracting insight from complex and heterogenous scientific datasets",
@@ -138,6 +224,20 @@ const skills = {
           style: {
             backgroundColor: "transparent",
             color: "#2167ba",
+          },
+        },
+        {
+          skillName: "Slides",
+          fontAwesomeClassname: "logos:slides",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+        {
+          skillName: "Adobe Illustrator",
+          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          style: {
+            color: "#FF7C00",
           },
         },
       ],
@@ -206,88 +306,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:gatsby",
           style: {
             color: "#663399",
-          },
-        },
-      ],
-    },
-    {
-      title: "Scientific Software Engineering",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "bxl:c-plus-plus",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3f5075",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "clarity:cluster-solid",
-          style: {
-            backgroundColor: "transparent",
-            color: "#004480",
-          },
-        },
-      ],
-    },
-    {
-      title: "Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing interactive and unique scientific presentations",
-        "⚡ Creating attractive, informative plots and data visualizations",
-        "⚡ Experimenting with molecular visualization software and techniques",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Slides",
-          fontAwesomeClassname: "logos:slides",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Overleaf",
-          fontAwesomeClassname: "academicons:overleaf",
-          style: {
-            color: "#45a339",
-          },
-        },
-        {
-          skillName: "Blender",
-          fontAwesomeClassname: "logos:blender",
-          style: {
-            color: "#45a339",
-          },
-        },
-        {
-          skillName: "PowerPoint",
-          fontAwesomeClassname: "vscode-icons:file-type-powerpoint",
-          style: {
-            color: "#F24E1E",
           },
         },
       ],
