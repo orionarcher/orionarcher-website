@@ -22,8 +22,13 @@ const greeting = {
   title: "Orion Archer Cohen",
   logo_name: "OrionCohen",
   nickname: "@orionarcher",
-  subTitle:
-    "Active in computational materials discovery. Invested in open source and open science.",
+  subTitle: [
+    "Invested in shifting the materials discovery paradigm.",
+    "NSF Fellow, Persson Group.",
+  ],
+  // Climate change demands faster materials discovery.
+  // "Specialized generalist" uniting molecular simulation, scientific software engineering,
+  //
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
@@ -52,12 +57,6 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fab fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  // {
-  //   name: "YouTube",
-  //   link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
-  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  // },
   {
     name: "Email",
     link: "mailto:orion@lbl.gov",
@@ -76,18 +75,6 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fas fa-graduation-cap", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#003262", // Reference https://simpleicons.org/?q=linkedin
   },
-  // {
-  //   name: "Facebook",
-  //   link: "https://www.facebook.com/laymanbrother.19/",
-  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  // },
-  // {
-  //   name: "Instagram",
-  //   link: "https://www.instagram.com/layman_brother/",
-  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  // },
 ];
 
 const skills = {
@@ -316,46 +303,46 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+    // {
+    //   siteName: "HackerRank",
+    //   iconifyClassname: "simple-icons:hackerrank",
+    //   style: {
+    //     color: "#2EC866",
+    //   },
+    //   profileLink: "https://www.hackerrank.com/layman_brother",
+    // },
+    // {
+    //   siteName: "Codechef",
+    //   iconifyClassname: "simple-icons:codechef",
+    //   style: {
+    //     color: "#5B4638",
+    //   },
+    //   profileLink: "https://www.codechef.com/users/ashutosh_1919",
+    // },
+    // {
+    //   siteName: "Codeforces",
+    //   iconifyClassname: "simple-icons:codeforces",
+    //   style: {
+    //     color: "#1F8ACB",
+    //   },
+    //   profileLink: "http://codeforces.com/profile/layman_brother",
+    // },
+    // {
+    //   siteName: "Hackerearth",
+    //   iconifyClassname: "simple-icons:hackerearth",
+    //   style: {
+    //     color: "#323754",
+    //   },
+    //   profileLink: "https://www.hackerearth.com/@ashutosh391",
+    // },
+    // {
+    //   siteName: "Kaggle",
+    //   iconifyClassname: "simple-icons:kaggle",
+    //   style: {
+    //     color: "#20BEFF",
+    //   },
+    //   profileLink: "https://www.kaggle.com/laymanbrother",
+    // },
   ],
 };
 
