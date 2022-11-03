@@ -47,12 +47,12 @@ export default class Main extends Component {
                   <Opensource {...props} theme={this.props.theme} />
                 )}
               />
-              <Route
-                path="/contact"
-                render={(props) => (
-                  <Contact {...props} theme={this.props.theme} />
-                )}
-              />
+              {/*<Route*/}
+              {/*  path="/contact"*/}
+              {/*  render={(props) => (*/}
+              {/*    <Contact {...props} theme={this.props.theme} />*/}
+              {/*  )}*/}
+              {/*/>*/}
               <Route
                 path="/splash"
                 render={(props) => (
