@@ -2,7 +2,7 @@
   "data": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "solvation-analysis",
+      "name": "Solvation Analysis",
       "createdAt": "2020-03-06T16:26:54Z",
       "role": "Core Developer",
       "url": "https://github.com/MDAnalysis/solvation-analysis",
@@ -17,7 +17,7 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
-      "name": "pymatgen.openmm.io",
+      "name": "Pymatgen Openmm IO",
       "createdAt": "2020-06-03T11:53:55Z",
       "role": "Core Developer",
       "url": "https://github.com/orionarcher/pymatgen-io-openmm",
