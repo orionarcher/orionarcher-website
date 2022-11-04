@@ -28,7 +28,7 @@ export default function GithubRepoCard({ repo, theme }) {
               className="publication-creation-date subTitle"
               style={{ color: theme.secondaryText }}
             >
-              Published on {repo.createdAt.split("T")[0]}
+              {repo.bib}
             </p>
           </div>
           {/* <div className="repo-stats">

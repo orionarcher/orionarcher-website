@@ -1,34 +1,32 @@
 {
   "data": [
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Artificial Intelligence Paper",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "description": "Paper Written on Artificial Intelligence published in xyz "
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
+      "name": "SolvationAnalysis: A Robust, Cohesive, and Fast Toolkit for Understanding Liquid Solvation Structure",
+      "bib": "In Preparation",
+      "description": "Orion Cohen, Hugo MacDermott-Opeskin, Lauren Lee, Kara Fong, Tingzheng Hou, Ryan Kingsbury, Kristin Persson",
+      "url": "https://github.com/MDAnalysis/solvation-analysis"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      "name": "Artificial Intelligence Paper",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "description": "Paper Written on Artificial Intelligence published in xyz "
+      "name": "Crystal Toolkit: A Web App Framework to Improve Usability and Accessibility of Materials Science Research Algorithms",
+      "bib": "In Preparation",
+      "description": "Matthew Horton, Jimmy-Xuan Shen, Orion Cohen, Francois Chabbey, et al.",
+      "url": "https://github.com/materialsproject/crystaltoolkit"
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      "name": "Artificial Intelligence Paper",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "description": "Paper Written on Artificial Intelligence published in xyz "
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
+      "name": "Rational Design of Fluorinated Electrolytes for Low Temperature Lithium Ion Batteries",
+      "bib": "Submitted to Energy & Environmental Science",
+      "description": "Dong-Joo Yoo, Qian Liu, Orion Cohen, Minkyu Kim, Kristin A. Persson, and Zhengcheng Zhang",
+      "url": ""
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      "name": "Artificial Intelligence Paper",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "description": "Paper Written on Artificial Intelligence published in xyz "
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      "name": "Artificial Intelligence Paper",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "description": "Paper Written on Artificial Intelligence published in xyz "
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Understanding the Role of SEI Layer in Low-Temperature Performance of Lithium-Ion Batteries",
+      "bib": "ACS Applied Materials & Interfaces, 2022",
+      "description": "Dong-Joo Yoo, Qian Liu, Orion Cohen, Minkyu Kim, Kristin Persson, Zhengcheng Zhang",
+      "url": "https://pubs.acs.org/doi/10.1021/acsami.1c23934"
     }
   ]
 }

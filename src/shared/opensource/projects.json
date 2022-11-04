@@ -21,7 +21,7 @@
       "createdAt": "2020-06-03T11:53:55Z",
       "role": "Core Developer",
       "url": "https://github.com/orionarcher/pymatgen-io-openmm",
-      "description": "A toolkit for setting up solution simulations in OpenMM",
+      "description": "A toolkit for setting up solution simulations in OpenMM.",
       "isFork": false,
       "languages": [
         {
