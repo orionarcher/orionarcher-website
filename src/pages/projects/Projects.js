@@ -15,6 +15,7 @@ import ProjectsData from "../../shared/opensource/projects.json";
 import PublicationData from "../../shared/opensource/publications.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import VersionControl from "./VersionControl";
 
 class Projects extends Component {
   render() {
@@ -30,7 +31,7 @@ class Projects extends Component {
 											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-                <ProjectsImg theme={theme} />
+                <VersionControl theme={theme} />
               </div>
               <div className="projects-heading-text-div">
                 <h1
