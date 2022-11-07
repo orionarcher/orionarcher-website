@@ -7,6 +7,7 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import Resume from "./Resume";
+import Visionary from "./Visionary";
 
 class Experience extends Component {
   render() {
@@ -18,7 +19,7 @@ class Experience extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="experience-heading-div">
               <div className="experience-heading-img-div">
-                <Resume theme={theme} />
+                <Visionary theme={theme} />
               </div>
               <div className="experience-heading-text-div">
                 <h1

@@ -18,6 +18,7 @@ import { Fade } from "react-reveal";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion";
 import PublicationData from "../../shared/opensource/publications.json";
 import PublicationCard from "../../components/publicationsCard/PublicationCard";
+import Resume from "../experience/Resume";
 
 class Education extends Component {
   render() {

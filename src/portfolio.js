@@ -500,8 +500,8 @@ const projectsHeader = {
 const publicationsHeader = {
   title: "Publications",
   description:
-    "My research is broad but I focus on understanding low temperature electrolytes for lithium ion batteries and software for high-throughput " +
-    "molecular dynamics simulations.",
+    "My past work has focused on creating software for high-throughput molecular dynamics and applying " +
+    "it to lithium ion battery electrolytes.",
   avatar_image_path: "projects_image.svg",
 };
 
