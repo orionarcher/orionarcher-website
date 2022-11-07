@@ -83,9 +83,10 @@ const skills = {
       title: "Computational Molecular Science",
       fileName: "FeelingScience",
       skills: [
-        "⚡ Extracting insight from complex and heterogenous scientific datasets",
-        "⚡ Opinionated expertise in data and scientific visualization",
-        "⚡ Practiced talent in communicating technical topics to non-experts",
+        "New materials are deperately needed to drive a renewable energy transition but the " +
+          "space of possible new materials is impossibly large. To accelerate discovery, I" +
+          "simulate materials before they are ever synthesized in a lab, trying to determine " +
+          "their properties and behavior at a much lower cost.",
       ],
       softwareSkills: [
         {
@@ -133,10 +134,9 @@ const skills = {
       title: "Scientific Software Engineering",
       fileName: "ClusterImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "Simulating hundreds or thousands of materials is challenging. Requiring highly " +
+          "specialized codes and generating huge amounts of data. I write software that " +
+          "it easier to run, store, and analyze the results of simulations.",
       ],
       softwareSkills: [
         {
@@ -166,12 +166,13 @@ const skills = {
       ],
     },
     {
-      title: "Data Science & Design",
+      title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Extracting insight from complex and heterogenous scientific datasets",
-        "⚡ Opinionated expertise in data and scientific visualization",
-        "⚡ Practiced talent in communicating technical topics to non-experts",
+        "With great data comes great responsibility. I use cutting edge data science " +
+          "and AI techniques to turn heaps of raw simulation data into useful results. " +
+          "I also study how visualization and design can help " +
+          "humans glean greater understanding from raw data.",
       ],
       softwareSkills: [
         {
@@ -233,9 +234,9 @@ const skills = {
       title: "Front End Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Designing scientific visualizations for the Materials Project with ThreeJS & React",
-        "⚡ Deploying stylish websites for personal and scientific projects",
-        "⚡ Exploring how web technology can better communicate scientific discovery",
+        "Ultimately, insights must be communicated. No medium is more widespread or more " +
+          "flexible than the modern web. I use web technologies like React and Plotly Dash " +
+          "to build accessible and attractive apps that communicate scientific findings.",
       ],
       softwareSkills: [
         {
@@ -330,9 +331,10 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Education, Research, and Leadership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "As a student, researcher, teacher, and leader, I " +
+    "pursue core principles: science should be open, inclusive, and stunningly effective.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -488,16 +490,18 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Software",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "I write software that makes molecular simulation easier and faster. All my codes and contributions " +
+    "are openly available on GitHub. ",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
   title: "Publications",
   description:
-    "I have worked on and published a few research papers and publications of my own.",
+    "My research is broad but I focus on understanding low temperature electrolytes for lithium ion batteries and software for high-throughput " +
+    "molecular dynamics simulations.",
   avatar_image_path: "projects_image.svg",
 };
 
