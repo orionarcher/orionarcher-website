@@ -6,7 +6,6 @@ import ExperienceAccordion from "../../containers/experienceAccordion/Experience
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
-import Resume from "./Resume";
 import Visionary from "./Visionary";
 
 class Experience extends Component {

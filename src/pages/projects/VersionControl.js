@@ -8,7 +8,6 @@ class VersionControl extends Component {
     const shirtColor = theme.imageHighlight;
     const skinTone = "#ffdbac"; // ffb6b6
     const hairColor = "#8d5524"; // theme.dark
-    const paperColor = "#f7f7f7";
 
     return (
       <svg
