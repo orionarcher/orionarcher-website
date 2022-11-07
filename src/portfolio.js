@@ -70,9 +70,9 @@ const socialMediaLinks = [
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
   {
-    name: "Research",
-    link: "https://perssongroup.lbl.gov/people.html",
-    fontAwesomeIcon: "fas fa-graduation-cap", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    name: "Resume",
+    link: "https://oac-misc.s3.us-west-1.amazonaws.com/Orion_Cohen_Resume.pdf",
+    fontAwesomeIcon: "fas fa-file", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#003262", // Reference https://simpleicons.org/?q=linkedin
   },
 ];
@@ -83,10 +83,9 @@ const skills = {
       title: "Computational Molecular Science",
       fileName: "FeelingScience",
       skills: [
-        "New materials are deperately needed to drive a renewable energy transition but the " +
-          "space of possible new materials is impossibly large. To accelerate discovery, I" +
-          "simulate materials before they are ever synthesized in a lab, trying to determine " +
-          "their properties and behavior at a much lower cost.",
+        "New materials are deperately needed to drive a renewable energy transition. " +
+          "To accelerate materials discovery, I simulate materials before they are ever " +
+          "synthesized in a lab, trying to determine their properties and behavior at a much lower cost.",
       ],
       softwareSkills: [
         {
@@ -134,7 +133,7 @@ const skills = {
       title: "Scientific Software Engineering",
       fileName: "ClusterImg",
       skills: [
-        "Simulating hundreds or thousands of materials is challenging. Requiring highly " +
+        "Simulating hundreds or thousands of materials is challenging, requiring highly " +
           "specialized codes and generating huge amounts of data. I write software that " +
           "it easier to run, store, and analyze the results of simulations.",
       ],
