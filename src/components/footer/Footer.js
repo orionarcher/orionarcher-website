@@ -10,8 +10,11 @@ export default function Footer(props) {
       <Fade>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
           {
-            <a href={"https://github.com/orionarcher/orionarcher-website"}>
-              source code
+            <a
+              href={"https://github.com/orionarcher/orionarcher-website"}
+              style={{ textDecoration: "none" }}
+            >
+              website source
             </a>
           }
         </p>
