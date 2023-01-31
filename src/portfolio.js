@@ -134,7 +134,7 @@ const skills = {
       fileName: "ClusterImg",
       skills: [
         "Simulating hundreds or thousands of materials is challenging, requiring highly " +
-          "specialized codes and generating huge amounts of data. I write software that " +
+          "specialized codes and generating huge amounts of data. I write software that makes " +
           "it easier to run, store, and analyze the results of simulations.",
       ],
       softwareSkills: [
