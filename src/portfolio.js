@@ -297,6 +297,24 @@ const skills = {
         },
       ],
     },
+    // {
+    //   title: "Front End Development",
+    //   fileName: "FullStackImg",
+    //   skills: [
+    //     "Insight only matters if it is communicated. No medium is more widespread or more " +
+    //     "flexible than the modern web. I use web technologies like React and Plotly Dash " +
+    //     "to build accessible and attractive apps that communicate scientific findings.",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "HTML5",
+    //       fontAwesomeClassname: "simple-icons:html5",
+    //       style: {
+    //         color: "#E34F26",
+    //       },
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -366,6 +384,18 @@ const experience = {
     {
       title: "Research",
       experiences: [
+        {
+          title: "Machine Learning Research Intern",
+          company: "Chemix",
+          company_url: "https://chemix.ai/",
+          logo_path: "chemix.png",
+          duration: "May 2023 - August 2023",
+          location: "Sunnyvale, California",
+          description:
+            "At Chemix I merged simulations, experimental data, and deep learning to predict" +
+            "the properties of novel battery formulations.",
+          color: "#013959",
+        },
         {
           title: "Graduate Research Fellow",
           company: "Lawrence Berkeley National Laboratory",
