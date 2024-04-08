@@ -2,38 +2,52 @@
   "data": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      "name": "An Open and Accessible Database for Computational Molecular Chemistry.",
-      "bib": "In Preparation",
+      "name": "What is Missing in Autonomous Discovery: Open Challenges for the Community.",
+      "bib": "Digital Discovery, 2023",
+      "description": "Maffetone et al.",
+      "url": "https://github.com/"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
+      "name": "A Database of Molecular Properties Integrated in the Materials Project.",
+      "bib": "Digital Discovery, 2023",
       "description": "Evan Walter Clark Spotte-Smith, Samuel M. Blau, Orion Cohen, Ryan Kingsbury, Jason M. Munro, Rishabh Guha, Matthew K. Horton, and Kristin A. Persson.",
       "url": "https://github.com/"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
       "name": "Crystal Toolkit: A Web App Framework to Improve Usability and Accessibility of Materials Science Research Algorithms",
-      "bib": "In Preparation",
+      "bib": "Arxiv, 2023",
       "description": "Matthew Horton, Jimmy-Xuan Shen, Orion Cohen, Francois Chabbey, et al.",
       "url": "https://github.com/materialsproject/crystaltoolkit"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
       "name": "SolvationAnalysis: A Robust, Cohesive, and Fast Toolkit for Understanding Liquid Solvation Structure",
-      "bib": "Submitted to the Journal of Open Source Software",
+      "bib": "Journal of Open Source Software, 2023",
       "description": "Orion Cohen, Hugo MacDermott-Opeskin, Lauren Lee, Kara Fong, Tingzheng Hou, Ryan Kingsbury, Kristin Persson",
       "url": "https://github.com/MDAnalysis/solvation-analysis"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Competence and Confidence: Addressing Inequity Among Incoming Chemistry Graduate Students Through a Week-Long Mathematics Intervention",
-      "bib": "Submitted to the Journal of Chemical Education",
-      "description": "Rachel Clune, Orion Cohen, Avishek Das, Dipti Jasrasaria, Elliot Rossomme, Anne Baranger",
+      "bib": "Journal of Chemical Education, 2023",
+      "description": "Rachel Clune, Avishek Das, Dipti Jasrasaria, Elliot Rossomme, Orion Cohen, Anne Baranger",
       "url": "https://chemmathbootcamp.com/"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
       "name": "Rational Design of Fluorinated Electrolytes for Low Temperature Lithium Ion Batteries",
-      "bib": "Accepted by Energy & Environmental Science",
+      "bib": "Advanced Energy Materials, 2023",
       "description": "Dong-Joo Yoo, Qian Liu, Orion Cohen, Minkyu Kim, Kristin A. Persson, and Zhengcheng Zhang",
       "url": ""
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "MDAnalysis 2.0 and beyond: Fast and Interoperable, Community Driven Simulation Analysis",
+      "bib": "Biophysical Journal, 2022",
+      "description": "Naughton et al.",
+      "url": "https://pubs.acs.org/doi/10.1021/acsami.1c23934"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
