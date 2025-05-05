@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "OrionArcher",
   nickname: "@orionarcher",
   subTitle: [
-    "Invested in shifting the materials discovery paradigm.",
+    "Invested in shifting the scientific discovery paradigm.",
     "NSF Fellow, Persson Group.",
   ],
   // Climate change demands faster materials discovery.
@@ -348,7 +348,7 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Education, Research, and Leadership",
+  subtitle: "Education, Research, and Community",
   description:
     "As a student, researcher, teacher, and leader, I " +
     "pursue core principles: science should be open, inclusive, and stunningly effective.",
@@ -362,7 +362,7 @@ const experience = {
           company: "University of California, Berkeley",
           company_url: "https://www.berkeley.edu/",
           logo_path: "berkeley_logo.png",
-          duration: "Expected 2024",
+          duration: "Expected 2025",
           location: "Berkeley, California",
           description:
             "My coursework has focused on chemistry, machine learning, and scientific communication. I have earned a Designated Emphasis in Computational Data Science and Engineering and a certificate in Applied Data Science.",
@@ -385,18 +385,6 @@ const experience = {
       title: "Research",
       experiences: [
         {
-          title: "Machine Learning Research Intern",
-          company: "Chemix",
-          company_url: "https://chemix.ai/",
-          logo_path: "chemix.png",
-          duration: "May 2023 - August 2023",
-          location: "Sunnyvale, California",
-          description:
-            "At Chemix I merged simulations, experimental data, and deep learning to predict" +
-            "the properties of novel battery formulations.",
-          color: "#013959",
-        },
-        {
           title: "Graduate Research Fellow",
           company: "Lawrence Berkeley National Laboratory",
           company_url: "https://www.lbl.gov/",
@@ -406,6 +394,42 @@ const experience = {
           description:
             "Working with Prof. Kristin Persson I use molecular dynamics (MD) and density " +
             "functional theory (DFT) to explore battery electrolytes and recyclable polymers.",
+          color: "#013959",
+        },
+        {
+          title: "AI Research Scientist",
+          company: "Radical AI",
+          company_url: "https://www.radical-ai.com/",
+          logo_path: "radical.png",
+          duration: "July 2024 - May 2025",
+          location: "New York, New York",
+          description:
+            "At Radical I led a team of 5 Ph.D. scientists to design and execute a computational materials" +
+            "discovery in close collaboration with lab, ML, and automation teams.",
+          color: "#013959",
+        },
+        {
+          title: "Tech to Market Summer Scholar",
+          company: "ARPA-E",
+          company_url: "https://arpa-e.energy.gov/",
+          logo_path: "arpae.png",
+          duration: "May 2024 - July 2024",
+          location: "Washington, D.C.",
+          description:
+            "At ARPA-E I developed a commercialization strategy for emerging GPU cooling technologies" +
+            "and supported the launch of CATALCHEMY, a funding program for accelerated catalysis discovery.",
+          color: "#013959",
+        },
+        {
+          title: "Machine Learning Research Intern",
+          company: "Chemix",
+          company_url: "https://chemix.ai/",
+          logo_path: "chemix.png",
+          duration: "May 2023 - August 2023",
+          location: "Sunnyvale, California",
+          description:
+            "At Chemix I merged simulations, experimental data, and deep learning to predict" +
+            "the properties of novel battery formulations.",
           color: "#013959",
         },
         {
@@ -477,14 +501,14 @@ const experience = {
       ],
     },
     {
-      title: "Leadership",
+      title: "Community",
       experiences: [
         {
           title: "Chair",
           company: "Science Leadership and Management",
           company_url: "https://qb3.berkeley.edu/education/slam/",
           logo_path: "slam_logo.png",
-          duration: "May 2022 - Present",
+          duration: "May 2022 - May 2024",
           location: "Berkeley, California",
           description:
             "We organize seminars and workshops on science leadership and management at UC Berkeley.",
@@ -495,7 +519,7 @@ const experience = {
           company: "Open Science at Berkeley",
           company_url: "",
           logo_path: "boss_logo.png",
-          duration: "May 2022 - Present",
+          duration: "May 2022 - May 2024",
           location: "Berkeley, California",
           description:
             "We further open-science through discussions of and workshops on personal development, education, and policy.",
@@ -506,7 +530,7 @@ const experience = {
           company: "Berkeley Chemistry Mathematics Bootcamp",
           company_url: "https://chemmathbootcamp.com/",
           logo_path: "berkeley_logo.png",
-          duration: "March 2020 - Present",
+          duration: "March 2020 - May 2023",
           location: "Berkeley, California",
           description:
             "We designed and executed a week-long mathematics bootcamp for physical chemistry graduate students, now in it's fourth year.",
